@@ -20,3 +20,4 @@ ledcAttachPin(PinNum,channel); //編號,通道
 ### 輸出
 ```c
 ledcWrite(PinNum,dutyCycle); //,工作週期(0~255)
+```
