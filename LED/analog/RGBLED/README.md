@@ -14,13 +14,9 @@ dacRead(GOIOpin)//從某個Pin讀內容，回傳值介於0~4095，可以用short
 dacWrite(channel,輸出指定值)
 ```
 ##  方法2:PWM
-- 輸出脈波，利用duty cycle 調整<font color="#FFFF">平均電壓</font>
+- 輸出脈波，利用duty cycle 調整<font color="#EA60">平均電壓</font>
 
-$$ 輸出平均電壓(刻度0~255)=\frac{工作時間}{週期(t)} \times 100\%
-    \\
-    {\kern 92pt}=工作週期*峰值\\
-
-$$
+$$ 輸出平均電壓(刻度0~255)=\frac{工作時間}{週期(t)} \times 100\%\\{\kern 92pt}=工作週期*峰值\\$$
 
 ### 語法
 
